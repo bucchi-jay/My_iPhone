@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="12121" systemVersion="16B2657" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="HBh-cD-KmA">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="12089"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Navigation Controller-->
+        <scene sceneID="5ML-ab-oyQ">
+            <objects>
+                <navigationController id="HBh-cD-KmA" sceneMemberID="viewController">
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="Lsz-Yz-eLX">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <connections>
+                        <segue destination="BYZ-38-t0r" kind="relationship" relationship="rootViewController" id="heP-Cz-lio"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="drw-2N-wFE" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-705" y="136"/>
+        </scene>
+        <!--画面1 -->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="ManyScreen" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
+                        <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="6oc-9T-l4x">
+                                <rect key="frame" x="132" y="232" width="110" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="画面2へ"/>
+                                <connections>
+                                    <segue destination="Vup-kP-ENf" kind="push" id="clf-mJ-hm8"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="yEh-Vn-TOT">
+                                <rect key="frame" x="152" y="318" width="70" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="画面3へ"/>
+                                <connections>
+                                    <segue destination="4q8-XD-kBg" kind="push" id="I2f-cU-FsB"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="whD-45-skg">
+                                <rect key="frame" x="158" y="390" width="58" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="画面4へ"/>
+                                <connections>
+                                    <segue destination="ki0-v9-wjh" kind="push" id="6Gd-dt-w5b"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    </view>
+                    <navigationItem key="navigationItem" title="画面1 " id="ht6-7R-rTL"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="136.80000000000001" y="136.28185907046478"/>
+        </scene>
+        <!--画面3-->
+        <scene sceneID="H4J-EB-JQs">
+            <objects>
+                <viewController id="4q8-XD-kBg" customClass="ViewController" customModule="ManyScreen" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="nAL-qa-cAE"/>
+                        <viewControllerLayoutGuide type="bottom" id="HOJ-Nj-huv"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="C7L-Y2-HBM">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="YVd-1l-LYG">
+                                <rect key="frame" x="154" y="316" width="66" height="34"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="yahoo"/>
+                                <connections>
+                                    <action selector="Watchyahoo:" destination="4q8-XD-kBg" eventType="touchUpInside" id="mAP-0W-XC8"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <navigationItem key="navigationItem" title="画面3" id="NzT-JY-0Yd"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="JdX-cW-Hsm" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1096.8" y="254.12293853073464"/>
+        </scene>
+        <!--画面4-->
+        <scene sceneID="G7z-P7-Spj">
+            <objects>
+                <viewController id="ki0-v9-wjh" customClass="ViewController" customModule="ManyScreen" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="bGN-MT-zFN"/>
+                        <viewControllerLayoutGuide type="bottom" id="B7N-nZ-jbr"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="2Bq-T6-9S4">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="KUb-pu-fPJ">
+                                <rect key="frame" x="154" y="318" width="66" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="youtube"/>
+                                <connections>
+                                    <action selector="youtubebutton:" destination="ki0-v9-wjh" eventType="touchUpInside" id="Ng0-Z2-ZRe"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <navigationItem key="navigationItem" title="画面4" id="bZW-bi-wol"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="4IF-nt-Dby" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1096.8" y="1024.1379310344828"/>
+        </scene>
+        <!--画面2-->
+        <scene sceneID="s4T-c4-hJA">
+            <objects>
+                <viewController id="Vup-kP-ENf" customClass="ViewController" customModule="ManyScreen" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="P4x-MN-OUh"/>
+                        <viewControllerLayoutGuide type="bottom" id="dkz-ea-N8I"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="829-dP-0of">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="MB7-FM-yTI">
+                                <rect key="frame" x="138" y="318" width="99" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Google"/>
+                                <connections>
+                                    <action selector="googlebutton:" destination="Vup-kP-ENf" eventType="touchUpInside" id="8q5-V8-QKz"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <navigationItem key="navigationItem" title="画面2" id="Hnp-AK-No6"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="bp5-cu-NYG" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1097" y="-504"/>
+        </scene>
+    </scenes>
+</document>
